@@ -21,6 +21,8 @@
 * Generating the imdb training data for DSMM by running `GenerateData_DSMM.m`
 * Train the DSMM, run the code `Demo_Train_DSMM.m`
 
+`Matrix_Sparse.m` is used for sparse constraint and `Matirx_orth.m` is used for norm constraint.
+
 ### Testing
 
 * Obtain the learned measurement matrix from the trained model by running `get_sampling_mat.m`
