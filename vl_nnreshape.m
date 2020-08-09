@@ -1,6 +1,4 @@
 function y = vl_nnreshape_wzhshi( x, dims, dzdy )
-%VL_NNRESHAPE_WZHSHI Summary of this function goes here
-%   Detailed explanation goes here
 
 % VL_NNRESHAPE Feature reshaping
 %   Y = VL_NNRESHAPE(X, DIMS) reshapes the input data X to have
