@@ -1,9 +1,9 @@
 # DSMM
 
-* Officical code of paper "DEEP NEURAL NETWORK BASED SPARSE MEASUREMENT MATRIX FOR IMAGE COMPRESSED SENSING" ICIP2018
+* Officical code of paper "Deep Neural Network based Sparse Measurement Matirx for Image Compressed Sensing" ICIP2018
 * Download the paper: https://arxiv.org/pdf/1806.07026v1.pdf
 
-## Framework of LapCSNet
+## Framework of DSMM
 
 ![image](https://github.com/WenxueCui/DSMM/raw/master/images/framework.jpg)
 
@@ -18,25 +18,13 @@
 
 ### Training
 
-* Copying the function in `+dagnn` folder to your `Matconvnet` location `<MatconvNet>\matlab\+dagnn`
-* Preparing the training data. (T91 and BSDS200 are included in our repo)
-* Train the LapCSNet, run the code `train_LapCSN(0.1, 2, 0);`
-
-```
-The first param is CS subrate
-The second param is the number of conv layers in each pyramid level
-The third param is gpu setting. (0 is CPU, 1 is GPU)
-```
+* Generating the imdb training data for DSMM by running `GenerateData_DSMM.m`
+* Train the DSMM, run the code `Demo_Train_DSMM.m`
 
 ### Testing
 
-* Preparing the testing data. (Set5 and Set14 are included in our repo)
-* Test the LapCSNet, run the code `test_LapCSN_main(100, 200)`
-
-```
-The first param is start epoch for testing model
-The second param is end epoch for testing model 
-```
+* Obtain the learned measurement matrix from the trained model by running `get_sampling_mat.m`
+* Using the learned measurement matrix to replace the traditional gaussian matrix for different iteration based CS methods.
 
 
 ## Experimental Results
@@ -52,7 +40,6 @@ The second param is end epoch for testing model
 ## Additional instructions
 
 * For training data, you can choose any dataset by yourself.
-* When subrate<=0.25, the laplacian structure can be used.
 * If you have any problem, please email wenxuecui@stu.hit.edu.cn
 
 ## Citation
@@ -70,4 +57,4 @@ The second param is end epoch for testing model
 
 ## Acknowledgments
 
-This code is built based on the repo https://github.com/phoenix104104/LapSRN
+This code is built based on the repo https://github.com/cszn/DnCNN
