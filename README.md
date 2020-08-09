@@ -1,11 +1,11 @@
 # DSMM
 
-* Officical code of paper "An efficient deep convolutional laplacian pyramid architecture for CS reconstruction at low sampling ratios" ICASSP2018
-* Download the paper: https://arxiv.org/pdf/1804.04970.pdf
+* Officical code of paper "DEEP NEURAL NETWORK BASED SPARSE MEASUREMENT MATRIX FOR IMAGE COMPRESSED SENSING" ICIP2018
+* Download the paper: https://arxiv.org/pdf/1806.07026v1.pdf
 
 ## Framework of LapCSNet
 
-![image](https://github.com/WenxueCui/LapCSNet/raw/master/images/framework.jpg)
+![image](https://github.com/WenxueCui/DSMM/raw/master/images/framework.jpg)
 
 ## Requirements
 
@@ -43,11 +43,11 @@ The second param is end epoch for testing model
 
 * ### Subjective results
 
-![image](https://github.com/WenxueCui/LapCSNet/raw/master/images/results.jpg)
+![image](https://github.com/WenxueCui/DSMM/raw/master/images/results.jpg)
 
 * ### Objective results
 
-![image](https://github.com/WenxueCui/LapCSNet/raw/master/images/table.jpg)
+![image](https://github.com/WenxueCui/DSMM/raw/master/images/table.jpg)
 
 ## Additional instructions
 
@@ -61,9 +61,9 @@ The second param is end epoch for testing model
 
 ```
 @article{Cui2018An,
-  title={An efficient deep convolutional laplacian pyramid architecture for CS reconstruction at low sampling ratios},
-  journal={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  author={Cui, Wenxue and Xu, Heyao and Gao, Xinwei and Zhang, Shengping and Jiang, Feng and Zhao, Debin},
+  title={Deep Neural Network based Sparse Measurement Matirx for Image Compressed Sensing},
+  journal={IEEE International Conference on Image Processing (ICIP)},
+  author={Cui, Wenxue, Jiang, Feng, Gao, Xinwei, Tao, Wen and Zhao, Debin},
   year={2018},
 }
 ```
