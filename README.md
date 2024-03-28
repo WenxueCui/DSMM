@@ -43,7 +43,7 @@
 
 * For training data, you can choose any dataset by yourself.
 * If you like this repo, Star or Fork to support my work. Thank you.
-* If you have any problem, please email wenxuecui@stu.hit.edu.cn
+* If you have any problem, please email wxcui@hit.edu.cn
 
 ## Citation
 
